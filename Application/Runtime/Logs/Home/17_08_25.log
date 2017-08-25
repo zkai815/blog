@@ -1,0 +1,351 @@
+[ 2017-08-25T08:48:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0029s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503622096','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/','') [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `my_article` WHERE `article_del` = 1 ORDER BY article_id desc LIMIT 8   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `my_links` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `my_links`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-08-25T08:48:19+08:00 ] 127.0.0.1 /index.php/Home/Detail/detail.html?id=88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0029s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503622099','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/Detail/detail.html?id=88','') [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `my_article` WHERE `article_id` = 88 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `my_type` WHERE `is_del` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: where D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Home\Controller\DetailController.class.php 第 11 行.
+SQL: SELECT * FROM `my_article` ORDER BY article_id desc LIMIT 8   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Home\Controller\DetailController.class.php 第 12 行.
+SQL: SELECT * FROM `my_article` ORDER BY article_id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\8353e525594791380f28a6bb7ab039bd.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-08-25T08:48:19+08:00 ] 127.0.0.1 /index.php/Home/Article/setIc?id=88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0025s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503622099','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/Article/setIc?id=88','') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0031s ]
+SQL: UPDATE `my_article` SET `count`=count+1 WHERE `article_id` = 88 [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-08-25T08:54:00+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0030s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503622440','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/index/index.html','') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `my_article` WHERE `article_del` = 1 ORDER BY article_id desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `my_links` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `my_links`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-08-25T10:03:31+08:00 ] 127.0.0.1 /index.php/Home/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0024s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503626611','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/Article/article.html','') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `my_article` WHERE `article_del` = 1 ORDER BY article_id desc LIMIT 8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_article` WHERE `article_del` = 1 ORDER BY article_id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `my_type` WHERE `is_del` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-08-25T10:03:32+08:00 ] 127.0.0.1 /index.php/Home/Resource/resource.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003279s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0034s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503626612','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/Resource/resource.html','') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\d4fac772df030f30fb6a6adfacbb3fd5.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-08-25T10:03:32+08:00 ] 127.0.0.1 /index.php/Home/Resource/images/cover/201703051349045432.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-08-25T10:03:33+08:00 ] 127.0.0.1 /index.php/Home/Timeline/timeline.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003353s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0033s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503626613','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/Timeline/timeline.html','') [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\a403ebb113378cf7f5df62b0eb54864b.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-08-25T10:03:34+08:00 ] 127.0.0.1 /index.php/Home/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003302s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0032s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503626613','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/About/about.html','') [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\4bf4e1e3af3889722eec884187d3bbbd.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-08-25T10:03:34+08:00 ] 127.0.0.1 /index.php/Home/About/images/Absolutely.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-08-25T10:03:37+08:00 ] 127.0.0.1 /index.php/Home/User/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-08-25T10:03:40+08:00 ] 127.0.0.1 /index.php/Home/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-08-25T10:03:40+08:00 ] 127.0.0.1 /index.php/Home/About/images/Absolutely.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2017-08-25T10:03:42+08:00 ] 127.0.0.1 /index.php/Home/Timeline/timeline.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-08-25T10:03:43+08:00 ] 127.0.0.1 /index.php/Home/Resource/resource.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-08-25T10:03:43+08:00 ] 127.0.0.1 /index.php/Home/Resource/images/cover/201703051349045432.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-08-25T10:03:44+08:00 ] 127.0.0.1 /index.php/Home/Article/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-08-25T10:03:48+08:00 ] 127.0.0.1 /index.php/Home/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-08-25T10:03:48+08:00 ] 127.0.0.1 /index.php/Home/About/images/Absolutely.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-08-25T10:03:58+08:00 ] 127.0.0.1 /index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0047s ]
+SQL: INSERT INTO `my_access` (`ip`,`acs_time`,`user_agent`,`url`,`user_name`) VALUES ('127.0.0.1','1503626638','Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0','/index.php/Home/index/index.html','') [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `my_article` WHERE `article_del` = 1 ORDER BY article_id desc LIMIT 8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `my_links` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `my_links`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: config D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+

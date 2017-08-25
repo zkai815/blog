@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=gb2312">
+    <meta http-equiv="Content-Language" content="zh-CN">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>小青年</title>
+    <link rel="shortcut icon" href="/hongbo/BuLuoGe/Public/Home/images/Logo_40.png" type="image/x-icon">
+    <!--Layui-->
+    <link href="/hongbo/BuLuoGe/Public/Home/plug/layui/css/layui.css" rel="stylesheet" />
+    <!--font-awesome-->
+    <link href="/hongbo/BuLuoGe/Public/Home/plug/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!--全局样式表-->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/global.css" rel="stylesheet" />
+    <!-- 首页样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/home.css" rel="stylesheet" />
+    <!--文章样式表-->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/article.css" rel="stylesheet" />
+    <!-- 详情样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/detail.css" rel="stylesheet" />
+    <!-- 资源样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/resource.css" rel="stylesheet" />
+    <!-- 时间样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/timeline.css" rel="stylesheet" />
+    <!-- 本站样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/about.css" rel="stylesheet" />
+    </head>
+<body>
+<!-- 导航 -->
+<nav class="blog-nav layui-header">
+    <div class="blog-container">
+        <div class="blog-container">
+            <!-- QQ互联登陆 -->
+            <a href="javascript:;" class="blog-user">
+                <i class="fa fa-qq"></i>
+            </a>
+            <a href="javascript:;" class="blog-user layui-hide">
+                <img src="/hongbo/BuLuoGe/Public/Home/images/Absolutely.jpg" alt="ZhangKai" title="ZhangKai" />
+            </a>
+
+        <a class="blog-logo" href="/hongbo/BuLuoGe/index.php/Home/index/index.html">小青年</a>
+        <!-- 导航菜单 -->
+        <ul class="layui-nav" lay-filter="nav">
+            <li class="layui-nav-item layui-this">
+                <a href="/hongbo/BuLuoGe/index.php/Home/index/index.html"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Resource/resource.html"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Timeline/timeline.html"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/About/about.html"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/User/Index.html">&nbsp;登录</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Login/index.html">&nbsp;注册</a>
+            </li>
+
+        </ul>
+        <!-- 手机和平板的导航开关 -->
+        <a class="blog-navicon" href="javascript:;">
+            <i class="fa fa-navicon"></i>
+        </a>
+    </div>
+</nav>
+<style>
+    .article-abstract{
+        width:450px;
+        border:1px #ddd;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+</style>
+    <!-- 主体（一般只改变这里的内容） -->
+    <div class="blog-body">
+        <!-- canvas -->
+        <canvas id="canvas-banner" style="background: #393D49;"></canvas>
+        <!--为了及时效果需要立即设置canvas宽高，否则就在home.js中设置-->
+        <script type="text/javascript">
+            var canvas = document.getElementById('canvas-banner');
+            canvas.width = window.document.body.clientWidth - 10;//减去滚动条的宽度
+            if (screen.width >= 992) {
+                canvas.height = window.innerHeight * 1 / 3;
+            } else {
+                canvas.height = window.innerHeight * 2 / 7;
+            }
+        </script>
+        <!-- 这个一般才是真正的主体内容 -->
+        <div class="blog-container">
+            <div class="blog-main">
+                <!-- 网站公告提示 -->
+                <div class="home-tips shadow">
+                    <i style="float:left;line-height:17px;" class="fa fa-volume-up"></i>
+                    <div class="home-tips-container">
+                        <span style="color: #009688">偷偷告诉大家，本博客的后台管理也正在制作，为大家准备了游客专用账号！</span>
+                        <span style="color: red">网站新增留言回复啦！使用QQ登陆即可回复，人人都可以回复！</span>
+                        <span style="color: red">如果你觉得网站做得还不错，来Fly社区点个赞吧！<a href="http://fly.layui.com/case/2017/" target="_blank" style="color:#01AAED">点我前往</a></span>
+                        <span style="color: #009688">小青年 &nbsp;—— &nbsp;一个.PHP程序员的个人博客，目前正在建设中！</span>
+                    </div>
+                </div>
+                <!--左边文章列表-->
+                <div class="blog-main-left">
+                    <div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-24/599e7263d7993.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=87">午安！</a>
+                            </div>
+                            <div class="article-abstract">
+                                   如果没有风，云将是雨的守望。如果没有梦，等待将会荒废时光。如果没有你，我那颗炙热的心该如何安放。
+
+
+       在爱情的道路上，一路跌跌撞撞，坎坎坷坷，在经历过喜乐忧愁和分分合合之后，又一次回到了原点。只不过，这一次却是彻底看透，不愿再去相信或者尝试属于爱的那分美好。执一份思念，伴时光匆忙，无论岁月怎样摧残，我都甘愿清守寂寞，淡过孤独人生。
+
+ 
+
+      从未想过，爱情也会让一个人厌倦。也从未想过一个人也可以生活的很好。曾经我以为，一个人就算他再怎么不相信爱情，也会有再去爱的能力和勇气，可是后来我发现我彻底的错了，一个人破碎过的心，就像是镜子，碎了就永远的碎了，就算重圆，也满是伤痕。
+
+ 
+
+      所以一人一生之中真正爱的人也许就只有一个，可是现实中除了爱情，还有生活，还有家人，还有未来，所以大多数人都会为了生活搁浅掉爱情，我却是傻子，一个甘愿为了爱情放置掉生活傻子，尽管如此，最终我还是孤单一人。但我还是依旧在执着，对于爱情，我不愿意再相信也不愿意去将就，所以我只能是一个人。
+
+ 
+
+      一个人的路上，孤单凄凉，此刻的我正力不从心的走着，阴沉的天空却突然下起了雨，淋湿了来不及躲避的我，索性妥协一次，让它淋个够，还好以是初春，雨水也没有那么冰凉，可是心却是那么的冰冷。街上的人群撑着雨伞匆忙的走着，却没有一个人停下来理我，哪怕只是回头看一眼，也没有。雨水顺着我额头侵入我的眼睛，我疼得几乎睁不开眼，这种感觉似曾相识。
+
+ 
+
+      是啊！我想起来了，那年的某个雨天我也是被这样的大雨淋着，正当我慌乱奔走的时候，你出现了，那时的我们虽然还只是简单的同事，但善良的你还是在雨中为我撑起了一把伞，正是因为那把伞，才撑起我对你的爱恋。许多年以后的今天，我和你最终还是沦为了天涯陌路人。曾经你为我撑过的那把雨伞也不知道被丢在了那个角落，可是我永远忘不了，那天在雨中你为我撑伞的情形。往后的日子里我再也没有被雨淋过，因为你的叮嘱总是时刻在耳边回荡。
+
+ 
+
+       可是今天我却忘记了你的叮嘱，没有带伞，很遗憾，这一次再也没有人为我撑伞。但我却没有像从前那样慌乱，我慢慢的在雨中走着，走得很安静，很自然。有人说孤独的人是自由的，可是一个人若是太过自由，心就会胡思乱想，也许我就是这样吧！无论过去还是现在，我都总是想太多。
+
+      
+
+      如果可以，我愿岁月安好，我愿流年无恙，余后的路，浅浅遇，淡淡忘。                             </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-24 14:30:23</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;小青年</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">mysql</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;15</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-23/599d382d1fbc3.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=86">小帅飞1111！</a>
+                            </div>
+                            <div class="article-abstract">
+                                哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-23 16:09:17</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;凯</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">TPs</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;27</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-23/599cf545919d8.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=82">php！</a>
+                            </div>
+                            <div class="article-abstract">
+                                # 主标题
+## 副标题
+
+&gt; 这里是引入被人的名言
+
+```php
+public function test()
+{
+	echo 'hi';
+}
+```                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-23 11:23:49</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;kai11</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">php1</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;25</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-23/599cef307f911.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=81">小情绪1！</a>
+                            </div>
+                            <div class="article-abstract">
+                                ．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-23 10:57:52</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;凯</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">php1</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;21</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-21/599a7c456ba29.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=80">爱情！</a>
+                            </div>
+                            <div class="article-abstract">
+                                ．大概有些人就是这样，毫无征兆的说爱你，然后又悄无声息地离开。 2．那些扬言陪你走完一生的人，总是迷路。 3．有的人该忘就忘了吧，所谓的念念不忘，在自己眼里是爱，在对方眼里是烦，在别人眼里是贱。 4．你以为最酸的感…                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-21 14:23:01</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">php1</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;17</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-18/5996d289e5cec.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=78">笑容给任何人！</a>
+                            </div>
+                            <div class="article-abstract">
+                                一切都明明白白，但我们仍匆匆错过，因为你相信命运，因为我怀疑生活。 二、让你哭到撕心裂肺的那个人，是你最爱的人;让你笑到没心没肺的那个人，是最爱你的人。 三、遇到困难时不要抱怨，既然改变不了过去，那么就努力改变未来。 四、有些人看起来整天..                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:42:01</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;凯凯</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">php1</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;6</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-18/5996d25572f8e.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=77">不要去想！</a>
+                            </div>
+                            <div class="article-abstract">
+                                你的微笑辇过的每个夏天，深深的车辙印子，成了我心里永不会愈合的伤 二、人有四个模样：一个是在朋友面前疯癫的样子，一个是在恋人面前完美的样子，一个是只身一人时脆弱的样子，还有一个，是在陌生的人群中安安静静的样子。 三、习惯躲在某个无人的角...                             </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:41:09</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;凯凯</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">php1</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;1</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-18/5996d231bfec9.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=76">心情美美哒！</a>
+                            </div>
+                            <div class="article-abstract">
+                                潇洒乃我本性，帅是命中注定。 二、别再抱怨你在十四亿人中找不到一个对的人了，考试时你选择题四个选项都找不到一个对的。 三、我可以接受失败，但绝对不能接受未奋斗过的自己。---乔丹 四、总有一个人，一直住在心底，却消失在生活里。 五、我不明媚，...                             </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:40:33</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;凯凯</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="javascript:void(0)">php1</a></span>
+                            <span class="article-viewinfo"><i class="fa fa-eye"></i>&nbsp;46</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div>                </div>
+                <!--右边小栏目-->
+                <div class="blog-main-right">
+                    <div class="blogerinfo shadow">
+                        <div class="blogerinfo-figure">
+                            <img src="/hongbo/BuLuoGe/Public/Home/images/Absolutely.jpg" alt="Kai" />
+                        </div>
+                        <p class="blogerinfo-nickname">Zhang Kai</p>
+                        <p class="blogerinfo-introduce">一枚90后程序员，.PHP开发工程师</p>
+                        <p class="blogerinfo-location"><i class="fa fa-location-arrow"></i>&nbsp;首都 - 北京</p>
+                        <hr />
+                        <div class="blogerinfo-contact">
+                            <a target="_blank" title="QQ交流" href="javascript:layer.msg('启动QQ会话窗口')"><i class="fa fa-qq fa-2x"></i></a>
+                            <a target="_blank" title="给我写信" href="javascript:layer.msg('启动邮我窗口')"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a target="_blank" title="新浪微博" href="javascript:layer.msg('转到你的微博主页')"><i class="fa fa-weibo fa-2x"></i></a>
+                            <a target="_blank" title="码云" href="javascript:layer.msg('转到你的github主页')"><i class="fa fa-git fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div></div><!--占位-->
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">热文排行</div>
+                        <ul class="fa-ul blog-module-ul">
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=87">午安</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=86">小帅飞1111</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=82">php</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=81">小情绪1</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=80">爱情</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=78">笑容给任何人</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=77">不要去想</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=76">心情美美哒</a></li>                        </ul>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">最近分享</div>
+                        <ul class="fa-ul blog-module-ul">
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="http://pan.baidu.com/s/1c1BJ6Qc" target="_blank">Canvas</a></li>
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="http://pan.baidu.com/s/1kVK8UhT" target="_blank">pagesize.js</a></li>
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="https://pan.baidu.com/s/1mit2aiW" target="_blank">时光轴</a></li>
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="https://pan.baidu.com/s/1nuAKF81" target="_blank">图片轮播</a></li>
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="http://www.runoob.com/" target="_blank">PHP学习</a></li>
+                        </ul>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">一路走来</div>
+                        <dl class="footprint">
+                            <dt>2017年08月01日</dt>
+                            <dd>新增留言回复功能！人人都可参与回复！</dd>
+                            <dt>2017年08月5日</dt>
+                            <dd>小青年2.0基本功能完成，正式上线！</dd>
+                            <dt>2017年8月09日</dt>
+                            <dd>新增文章搜索功能！</dd>
+                            <dt>2017年08月25日</dt>
+                            <dd>QQ互联接入网站，可QQ登陆发表评论与留言！</dd>
+                        </dl>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">后台记录</div>
+                        <dl class="footprint">
+                            <dt>2017年08月16日</dt>
+                            <dd>分页新增页容量控制</dd>
+                            <dt>2017年03月12日</dt>
+                            <dd>新增管家提醒功能</dd>
+                            <dt>2017年03月10日</dt>
+                            <dd>新增Win10快捷菜单</dd>
+                        </dl>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">友情链接</div>
+                        <ul class="blogroll">
+                            <li><a target="_blank" href="http://www.layui.com/" title="Layui">Layui</a></li>
+                            <li><a target="_blank" href="http://www.pagemark.cn/" title="页签">页签</a></li>
+                            <li><a href="javascript:void(0)" title="jishufei">jishufei</a></li><li><a href="javascript:void(0)" title="凯">凯</a></li>                        </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+<!-- 底部 -->
+<footer class="blog-footer">
+    <p><span></span><span>&copy;</span><span>2017</span><a href="http://www.lyblogs.cn">小青年</a><span>Zhang Kai</span></p>
+    <p><a href="http://www.miibeian.gov.cn/" target="_blank">北京市昌平区</a></p>
+</footer>
+<!--侧边导航-->
+<ul class="layui-nav layui-nav-tree layui-nav-side blog-nav-left layui-hide" lay-filter="nav">
+    <li class="layui-nav-item">
+        <a href="home.html"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="article.html"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="resource.html"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="timeline.html"><i class="fa fa-road fa-fw"></i>&nbsp;点点滴滴</a>
+    </li>
+    <li class="layui-nav-item layui-this">
+        <a href="about.html"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+    </li>
+</ul>
+<!--分享窗体-->
+<div class="blog-share layui-hide">
+    <div class="blog-share-body">
+        <div style="width: 200px;height:100%;">
+            <div class="bdsharebuttonbox">
+                <a class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                <a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--遮罩-->
+<div class="blog-mask animated layui-hide"></div>
+<!-- layui.js -->
+<script src="/hongbo/BuLuoGe/Public/Home/plug/layui/layui.js"></script>
+<!-- 全局脚本 -->
+<script src="/hongbo/BuLuoGe/Public/Home/js/global.js"></script>
+<!-- 本页脚本 -->
+<script src="/hongbo/BuLuoGe/Public/Home/js/about.js"></script>
+<!-- 比较好用的代码着色插件 -->
+<script src="/hongbo/BuLuoGe/Public/Home/js/prettify.js"></script>
+<!-- 本页脚本 -->
+<script src="/hongbo/BuLuoGe/Public/Home/js/detail.js"></script>
+<!-- 本页脚本 -->
+<script src="/hongbo/BuLuoGe/Public/Home/js/home.js"></script>
+<!-- 本页脚本 -->
+<script type="text/javascript">
+    layui.use('jquery', function () {
+        var $ = layui.jquery;
+
+        $(function () {
+            $('.monthToggle').click(function () {
+                $(this).parent('h3').siblings('ul').slideToggle('slow');
+                $(this).siblings('i').toggleClass('fa-caret-down fa-caret-right');
+            });
+            $('.yearToggle').click(function () {
+                $(this).parent('h2').siblings('.timeline-month').slideToggle('slow');
+                $(this).siblings('i').toggleClass('fa-caret-down fa-caret-right');
+            });
+        });
+    });
+</script>
+</body>
+
+</body>
+</html>

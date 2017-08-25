@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=gb2312">
+    <meta http-equiv="Content-Language" content="zh-CN">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>小青年</title>
+    <link rel="shortcut icon" href="__PUBLIC__/Home/images/Logo_40.png" type="image/x-icon">
+    <!--Layui-->
+    <link href="__PUBLIC__/Home/plug/layui/css/layui.css" rel="stylesheet" />
+    <!--font-awesome-->
+    <link href="__PUBLIC__/Home/plug/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!--全局样式表-->
+    <link href="__PUBLIC__/Home/css/global.css" rel="stylesheet" />
+    <!-- 首页样式表 -->
+    <link href="__PUBLIC__/Home/css/home.css" rel="stylesheet" />
+    <!--文章样式表-->
+    <link href="__PUBLIC__/Home/css/article.css" rel="stylesheet" />
+    <!-- 详情样式表 -->
+    <link href="__PUBLIC__/Home/css/detail.css" rel="stylesheet" />
+    <!-- 资源样式表 -->
+    <link href="__PUBLIC__/Home/css/resource.css" rel="stylesheet" />
+    <!-- 时间样式表 -->
+    <link href="__PUBLIC__/Home/css/timeline.css" rel="stylesheet" />
+    <!-- 本站样式表 -->
+    <link href="__PUBLIC__/Home/css/about.css" rel="stylesheet" />
+    {$config.TONGJI}
+</head>
+<body>
+<!-- 导航 -->
+<nav class="blog-nav layui-header">
+    <div class="blog-container">
+        <div class="blog-container">
+            <!-- QQ互联登陆 -->
+            <a href="javascript:;" class="blog-user">
+                <i class="fa fa-qq"></i>
+            </a>
+            <a href="javascript:;" class="blog-user layui-hide">
+                <img src="__PUBLIC__/Home/images/Absolutely.jpg" alt="ZhangKai" title="ZhangKai" />
+            </a>
+
+        <a class="blog-logo" href="{:U('Home/index/index')}">小青年</a>
+        <!-- 导航菜单 -->
+        <ul class="layui-nav" lay-filter="nav">
+            <li class="layui-nav-item layui-this">
+                <a href="{:U('Home/index/index')}"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="{:U('Home/Article/article')}"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="{:U('Home/Resource/resource')}"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="{:U('Home/Timeline/timeline')}"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="{:U('Home/About/about')}"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="{:U('Home/User/Index')}">&nbsp;登录</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="{:U('Home/Login/index')}">&nbsp;注册</a>
+            </li>
+
+        </ul>
+        <!-- 手机和平板的导航开关 -->
+        <a class="blog-navicon" href="javascript:;">
+            <i class="fa fa-navicon"></i>
+        </a>
+    </div>
+</nav>

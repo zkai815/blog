@@ -1,0 +1,500 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=gb2312">
+    <meta http-equiv="Content-Language" content="zh-CN">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>小青年</title>
+    <link rel="shortcut icon" href="/hongbo/BuLuoGe/Public/Home/images/Logo_40.png" type="image/x-icon">
+    <!--Layui-->
+    <link href="/hongbo/BuLuoGe/Public/Home/plug/layui/css/layui.css" rel="stylesheet" />
+    <!--font-awesome-->
+    <link href="/hongbo/BuLuoGe/Public/Home/plug/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!--全局样式表-->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/global.css" rel="stylesheet" />
+    <!-- 首页样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/home.css" rel="stylesheet" />
+    <!--文章样式表-->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/article.css" rel="stylesheet" />
+    <!-- 详情样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/detail.css" rel="stylesheet" />
+    <!-- 资源样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/resource.css" rel="stylesheet" />
+    <!-- 时间样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/timeline.css" rel="stylesheet" />
+    <!-- 本站样式表 -->
+    <link href="/hongbo/BuLuoGe/Public/Home/css/about.css" rel="stylesheet" />
+    </head>
+<body>
+<!-- 导航 -->
+<nav class="blog-nav layui-header">
+    <div class="blog-container">
+        <div class="blog-container">
+            <!-- QQ互联登陆 -->
+            <a href="javascript:;" class="blog-user">
+                <i class="fa fa-qq"></i>
+            </a>
+            <a href="javascript:;" class="blog-user layui-hide">
+                <img src="/hongbo/BuLuoGe/Public/Home/images/Absolutely.jpg" alt="ZhangKai" title="ZhangKai" />
+            </a>
+
+        <a class="blog-logo" href="/hongbo/BuLuoGe/index.php/Home/index/index.html">小青年</a>
+        <!-- 导航菜单 -->
+        <ul class="layui-nav" lay-filter="nav">
+            <li class="layui-nav-item layui-this">
+                <a href="/hongbo/BuLuoGe/index.php/Home/index/index.html"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Resource/resource.html"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Timeline/timeline.html"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/About/about.html"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/User/Index.html">&nbsp;登录</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/hongbo/BuLuoGe/index.php/Home/Login/index.html">&nbsp;注册</a>
+            </li>
+
+        </ul>
+        <!-- 手机和平板的导航开关 -->
+        <a class="blog-navicon" href="javascript:;">
+            <i class="fa fa-navicon"></i>
+        </a>
+    </div>
+</nav>
+    <!-- 主体（一般只改变这里的内容） -->
+<script src="/hongbo/BuLuoGe/Public/Admin/js/jq.js"></script>
+<link rel="stylesheet" href="/hongbo/BuLuoGe/Public/Admin/markdown/css/editormd.css"/>
+<script src="/hongbo/BuLuoGe/Public/Admin/markdown/editormd.js"></script>
+<style>
+    p.start-gradient {
+        font-weight: bold;
+        font-family: helvetica;
+        text-align:center;
+        background: -webkit-linear-gradient(left, #4f185d , #fe5d4b);     /* 背景色渐变 */
+        -webkit-background-clip: text;         /* 规定背景的划分区域 */
+        -webkit-text-fill-color: transparent;  /* 防止字体颜色覆盖 */
+
+        font-family:Arial,Helvetica,sans-serif;
+        font-size:1.4em;
+        vertical-align:middle;
+        font-weight:normal
+    }
+</style>
+    <div class="blog-body">
+        <div class="blog-container">
+            <blockquote class="layui-elem-quote sitemap layui-breadcrumb shadow">
+                <a href="/hongbo/BuLuoGe/index.php/Home/index/index.html" title="网站首页">网站首页</a>
+                <a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html" title="文章专栏">文章专栏</a>
+                <a><cite>基于layui的laypage扩展模块！</cite></a>
+            </blockquote>
+            <div class="blog-main">
+                <div class="blog-main-left">
+                    <!-- 文章内容（使用Kingeditor富文本编辑器发表的） -->
+                    <div class="article-detail shadow">
+                        <div class="article-detail-title">
+                            心情语录                        </div>
+                        <div class="article-detail-info">
+                            <span>编辑时间：2017-08-24 19:38:05</span>
+                            <span>作者：凯啊</span>
+                            <span id="88">浏览量：2</span>
+                            <input type="hidden" name="" class="id" value="88"/>
+                        </div>
+                        <div class="article-detail-content">
+                            <p style="text-align:center;">
+                                <strong><span style="font-size:18px;">小赌为快</span></strong>
+                            </p>
+                            <p style="text-align:center;">
+                                <strong>
+                                    <span style="font-size:18px;">
+                                        <br />
+                                    </span>
+                                </strong>
+                            </p>
+                            <p style="text-align:center;">
+                                <img src="/hongbo/BuLuoGe/./Public/Uploads/2017-08-24/599eba6550196.jpg" width="100%" height="auto" title="pagesize演示" alt="pagesize演示" />
+                            </p>
+                            <p style="text-align:left;">
+                                <br />
+                            </p>
+                            <hr />
+                            <p>
+                                <br />
+                            </p>
+                            <div style="text-align:center;">
+                                &nbsp; &nbsp; <span style="color:#EE33EE;">前言</span>：此文章为测试文章，不喜欢那么请忽略这篇文章！
+                            </div>
+                            <hr />
+                            <p>
+                                <br />
+                            </p>
+                            <p class="start-gradient">
+                                <!--<pre class="brush: xml"></pre>-->
+                                句感悟人生的心情语录 
+
+1、世间事，除了生死，哪一桩不是闲事。
+  
+2、如果你偶尔的抬头，会看见一扇温暖的窗。
+3、到失去后，才懂珍惜，就已来不及。
+
+ 
+
+  
+
+4
+
+、幸福是比较级，要有东西垫底才感觉的到。
+
+ 
+
+  
+
+5
+
+、若将过去抱的太紧，怎么能腾出手来拥抱现在？
+
+ 
+
+  
+
+6
+
+、不是爱情变了质，只是爱与被爱站错了位置。
+
+ 
+
+  
+
+7
+
+、有时候决绝的伤害一个人，也许是对你们以后生活最大的救赎。
+
+ 
+
+  
+
+8
+
+、身上事少自然苦少；口中言少自然祸少；腹中食少自然病少；心中欲少自然忧少。
+
+ 
+
+  
+
+9
+
+、你可以坚持自己的理想，但不需固执自己的想法。
+
+ 
+
+  
+
+10
+
+、成熟不是因为心态老了，而是眼角挂着泪的时候却还能微笑。
+
+ 
+
+  
+
+11
+
+、人犯错误，多半是在该用真情时太过动脑筋，而在该用脑筋时又太感情用事。
+
+ 
+
+  
+
+12
+
+、坚硬旳城市没有柔软旳爱情，生活不昰林黛玉，不昰因为忧伤就可以风情万种。
+
+ 
+
+  
+
+13
+
+、良心是每一个人最公正的审判官，你骗得了别人，却永远骗不了你自己的良心。
+
+ 
+
+  
+
+14
+
+、不要浪费你的生命，在你一定会后悔的地方上。
+
+ 
+
+  
+
+15
+
+、母亲给儿子东西的时候，儿子笑了；儿子给母亲东西的时候，母亲哭了。
+
+ 
+
+  
+
+16
+
+、放弃该放弃的是无奈，不放弃该放弃的是无知，放弃不该放弃的是无能，不放弃不该放
+
+弃的是执着。
+
+ 
+
+  
+
+17
+
+、生活不是等待风暴过去，而是学会在雨中慢舞。
+
+ 
+
+  
+
+18
+
+、人生没有彩排，每天都是现场直播！
+
+ 
+
+  
+
+19
+
+、最了解自己的，永远只有自己。
+
+ 
+
+  
+
+20
+
+、有时候你以为天要塌下来了，其实是自己站歪了。
+
+ 
+
+  
+
+21
+
+、做不了决定的时候，让时间帮你决定。如果还是无法决定，做了再说。宁愿犯错，不留
+
+遗憾。
+
+ 
+
+  
+
+22
+
+、幸福太少，因为我们想要的太多。越简单的生活和日子，越会有幸福的味道，越容易品
+
+味到快乐的真谛。
+
+ 
+
+  
+
+23
+
+、向日葵自以为离不开太阳、但她却没发现自己也离不开土壤。
+
+ 
+
+  
+
+24
+
+、最使人痛苦的往往不是生活的不幸，而是你希望的破灭。
+
+ 
+
+  
+
+25
+
+、人生没有过错，只有错过。
+
+ 
+
+  
+
+26
+
+、一个懂得定位自己的人，才是真的在过美好的人生路。
+
+ 
+
+  
+
+27
+
+、那些繁华哀伤终成过往，请不要失望，平凡是为了最美的荡气回肠。
+
+ 
+
+  
+
+28
+
+、人生如过客，欢欢喜喜的来，高高兴兴的走。最重要的是，把握当下！
+
+ 
+
+  
+
+29
+
+、为别人活的日子，也许仅仅呼吸属于自己。
+
+ 
+
+  
+
+30
+
+、没有人能束缚我们除了我们自己
+
+ 
+
+  
+
+31
+
+、世界那么大，不是每个人都能得到自己想要的结果。
+
+ 
+
+  
+
+32
+
+、人生只有三天，活在昨天的人迷茫；活在明天的人等待；活在今天的人才最踏实。
+
+ 
+
+  
+
+33
+
+、但愿每次回忆，对生活都不感到负疚。
+
+ 
+
+  
+
+34
+
+、计较的太多就成了一种羁绊，迷失的太久便成了一种痛苦。
+
+  
+                            </p>
+                            <hr />
+                            &nbsp; &nbsp; 出自：小青年
+                            <p>
+                                &nbsp; &nbsp; 地址：<a href="http://www.vipkai.cn" target="_blank">www.vipkai.cn</a>
+                            </p>
+                            <p>
+                                &nbsp; &nbsp; 转载请注明出处！<img src="http://www.lyblogs.cn/kindeditor/plugins/emoticons/images/0.gif" border="0" alt="" />
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 评论区域 -->
+                    <div class="blog-module shadow" style="box-shadow: 0 1px 8px #a6a6a6;">
+                        <!--<fieldset class="layui-elem-field layui-field-title" style="margin-bottom:0">-->
+                            <!--<legend>来说两句吧</legend>-->
+                            <!--<div class="layui-field-box">-->
+                                <!--<form class="layui-form blog-editor" action="">-->
+                                    <!--<div class="layui-form-item">-->
+                                        <!--<textarea name="editorContent" lay-verify="content" id="remarkEditor" placeholder="请输入内容" class="layui-textarea layui-hide"></textarea>-->
+                                    <!--</div>-->
+                                    <!--<div class="layui-form-item">-->
+                                        <!--<button class="layui-btn" lay-submit="formRemark" lay-filter="formRemark">提交评论</button>-->
+                                    <!--</div>-->
+                                <!--</form>-->
+                            <!--</div>-->
+                        <!--</fieldset>-->
+                        <!--<div class="blog-module-title">最新评论</div>-->
+                        <!--<ul class="blog-comment">-->
+                            <!--<li>-->
+                                <!--<div class="comment-parent">-->
+                                    <!--<img src="images/Absolutely.jpg" alt="absolutely" />-->
+                                    <!--<div class="info">-->
+                                        <!--<span class="username">Absolutely</span>-->
+                                        <!--<span class="time">2017-03-18 18:46:06</span>-->
+                                    <!--</div>-->
+                                    <!--<div class="content">-->
+                                        <!--我为大家做了模拟评论功能！还有，这个评论功能也可以改成和留言一样，但是目前没改，有兴趣可以自己改-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+
+                        <!--畅言-->
+                        <div id="SOHUCS" sid="88" ></div>
+                        <script type="text/javascript">
+                            (function(){
+                                var appid = 'cytb1frk0';
+                                var conf = 'prod_0fd6d6574fe08729a0e473edc0e05aff';
+                                var width = window.innerWidth || document.documentElement.clientWidth;
+                                if (width < 960) {
+                                    window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+                    </div>
+
+
+
+
+                </div>
+                <div class="blog-main-right">
+                    <!--右边悬浮 平板或手机设备显示-->
+                    <div class="category-toggle"><i class="fa fa-chevron-left"></i></div><!--这个div位置不能改，否则需要添加一个div来代替它或者修改样式表-->
+                    <div class="article-category shadow">
+                        <div class="article-category-title">分类导航</div>
+                        <!-- 点击分类后的页面和artile.html页面一样，只是数据是某一类别的 -->
+                        <a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html?id=1">php1</a><a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html?id=2">web</a><a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html?id=3">net</a><a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html?id=9">TPs</a><a href="/hongbo/BuLuoGe/index.php/Home/Article/article.html?id=11">mysql</a>                        <div class="clear"></div>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">相似文章</div>
+                        <ul class="fa-ul blog-module-ul">
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=88">心情语录</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=87">午安</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=86">小帅飞1111</a></li>
+                        </ul>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">随便看看</div>
+                        <ul class="fa-ul blog-module-ul">
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=88">心情语录</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=87">午安</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=86">小帅飞1111</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=82">php</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=81">小情绪1</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=80">爱情</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=79">小张</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/hongbo/BuLuoGe/index.php/Home/Detail/detail.html?id=78">笑容给任何人</a></li>                        </ul>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+
+</body>
+<script src="/hongbo/BuLuoGe/Public/Home/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function(){
+        var id = $('.id').val();
+        $.get('/index.php/Home/Article/setIc',{"id":id},function(res){
+            console.log(res);
+        })
+    })
+</script>
+</html>

@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=gb2312">
+    <meta http-equiv="Content-Language" content="zh-CN">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>小青年</title>
+    <link rel="shortcut icon" href="/Public/Home/images/Logo_40.png" type="image/x-icon">
+    <!--Layui-->
+    <link href="/Public/Home/plug/layui/css/layui.css" rel="stylesheet" />
+    <!--font-awesome-->
+    <link href="/Public/Home/plug/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!--全局样式表-->
+    <link href="/Public/Home/css/global.css" rel="stylesheet" />
+    <!-- 首页样式表 -->
+    <link href="/Public/Home/css/home.css" rel="stylesheet" />
+    <!--文章样式表-->
+    <link href="/Public/Home/css/article.css" rel="stylesheet" />
+    <!-- 详情样式表 -->
+    <link href="/Public/Home/css/detail.css" rel="stylesheet" />
+    <!-- 资源样式表 -->
+    <link href="/Public/Home/css/resource.css" rel="stylesheet" />
+    <!-- 时间样式表 -->
+    <link href="/Public/Home/css/timeline.css" rel="stylesheet" />
+    <!-- 本站样式表 -->
+    <link href="/Public/Home/css/about.css" rel="stylesheet" />
+    </head>
+<body>
+<!-- 导航 -->
+<nav class="blog-nav layui-header">
+    <div class="blog-container">
+        <div class="blog-container">
+            <!-- QQ互联登陆 -->
+            <a href="javascript:;" class="blog-user">
+                <i class="fa fa-qq"></i>
+            </a>
+            <a href="javascript:;" class="blog-user layui-hide">
+                <img src="/Public/Home/images/Absolutely.jpg" alt="ZhangKai" title="ZhangKai" />
+            </a>
+
+        <a class="blog-logo" href="/index.php/Home/index/index.html">小青年</a>
+        <!-- 导航菜单 -->
+        <ul class="layui-nav" lay-filter="nav">
+            <li class="layui-nav-item layui-this">
+                <a href="/index.php/Home/index/index.html"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/index.php/Home/Article/article.html"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/index.php/Home/Resource/resource.html"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/index.php/Home/Timeline/timeline.html"><i class="fa fa-hourglass-half fa-fw"></i>&nbsp;点点滴滴</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/index.php/Home/About/about.html"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/index.php/Home/User/Index.html">&nbsp;登录</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/index.php/Home/Login/index.html">&nbsp;注册</a>
+            </li>
+
+        </ul>
+        <!-- 手机和平板的导航开关 -->
+        <a class="blog-navicon" href="javascript:;">
+            <i class="fa fa-navicon"></i>
+        </a>
+    </div>
+</nav>
+<style>
+    .article-abstract{
+        width:450px;
+        border:1px #ddd;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+</style>
+    <!-- 主体（一般只改变这里的内容） -->
+    <div class="blog-body">
+        <div class="blog-container">
+            <blockquote class="layui-elem-quote sitemap layui-breadcrumb shadow">
+                <a href="/index.php/Home/index/index.html" title="网站首页">网站首页</a>
+                <a><cite>文章专栏</cite></a>
+            </blockquote>
+            <div class="blog-main">
+                <div class="blog-main-left">
+                    <!--<div class="shadow" style="text-align:center;font-size:16px;padding:40px 15px;background:#fff;margin-bottom:15px;">-->
+                        <!--未搜索到与【<span style="color: #FF5722;">keywords</span>】有关的文章，随便看看吧！-->
+                    <!--</div>-->
+                    <div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-24/599eba6550196.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=88">心情语录</a>
+                            </div>
+                            <div class="article-abstract">
+                                句感悟人生的心情语录 
+
+1、世间事，除了生死，哪一桩不是闲事。
+  
+2、如果你偶尔的抬头，会看见一扇温暖的窗。
+3、到失去后，才懂珍惜，就已来不及。
+
+ 
+
+  
+
+4
+
+、幸福是比较级，要有东西垫底才感觉的到。
+
+ 
+
+  
+
+5
+
+、若将过去抱的太紧，怎么能腾出手来拥抱现在？
+
+ 
+
+  
+
+6
+
+、不是爱情变了质，只是爱与被爱站错了位置。
+
+ 
+
+  
+
+7
+
+、有时候决绝的伤害一个人，也许是对你们以后生活最大的救赎。
+
+ 
+
+  
+
+8
+
+、身上事少自然苦少；口中言少自然祸少；腹中食少自然病少；心中欲少自然忧少。
+
+ 
+
+  
+
+9
+
+、你可以坚持自己的理想，但不需固执自己的想法。
+
+ 
+
+  
+
+10
+
+、成熟不是因为心态老了，而是眼角挂着泪的时候却还能微笑。
+
+ 
+
+  
+
+11
+
+、人犯错误，多半是在该用真情时太过动脑筋，而在该用脑筋时又太感情用事。
+
+ 
+
+  
+
+12
+
+、坚硬旳城市没有柔软旳爱情，生活不昰林黛玉，不昰因为忧伤就可以风情万种。
+
+ 
+
+  
+
+13
+
+、良心是每一个人最公正的审判官，你骗得了别人，却永远骗不了你自己的良心。
+
+ 
+
+  
+
+14
+
+、不要浪费你的生命，在你一定会后悔的地方上。
+
+ 
+
+  
+
+15
+
+、母亲给儿子东西的时候，儿子笑了；儿子给母亲东西的时候，母亲哭了。
+
+ 
+
+  
+
+16
+
+、放弃该放弃的是无奈，不放弃该放弃的是无知，放弃不该放弃的是无能，不放弃不该放
+
+弃的是执着。
+
+ 
+
+  
+
+17
+
+、生活不是等待风暴过去，而是学会在雨中慢舞。
+
+ 
+
+  
+
+18
+
+、人生没有彩排，每天都是现场直播！
+
+ 
+
+  
+
+19
+
+、最了解自己的，永远只有自己。
+
+ 
+
+  
+
+20
+
+、有时候你以为天要塌下来了，其实是自己站歪了。
+
+ 
+
+  
+
+21
+
+、做不了决定的时候，让时间帮你决定。如果还是无法决定，做了再说。宁愿犯错，不留
+
+遗憾。
+
+ 
+
+  
+
+22
+
+、幸福太少，因为我们想要的太多。越简单的生活和日子，越会有幸福的味道，越容易品
+
+味到快乐的真谛。
+
+ 
+
+  
+
+23
+
+、向日葵自以为离不开太阳、但她却没发现自己也离不开土壤。
+
+ 
+
+  
+
+24
+
+、最使人痛苦的往往不是生活的不幸，而是你希望的破灭。
+
+ 
+
+  
+
+25
+
+、人生没有过错，只有错过。
+
+ 
+
+  
+
+26
+
+、一个懂得定位自己的人，才是真的在过美好的人生路。
+
+ 
+
+  
+
+27
+
+、那些繁华哀伤终成过往，请不要失望，平凡是为了最美的荡气回肠。
+
+ 
+
+  
+
+28
+
+、人生如过客，欢欢喜喜的来，高高兴兴的走。最重要的是，把握当下！
+
+ 
+
+  
+
+29
+
+、为别人活的日子，也许仅仅呼吸属于自己。
+
+ 
+
+  
+
+30
+
+、没有人能束缚我们除了我们自己
+
+ 
+
+  
+
+31
+
+、世界那么大，不是每个人都能得到自己想要的结果。
+
+ 
+
+  
+
+32
+
+、人生只有三天，活在昨天的人迷茫；活在明天的人等待；活在今天的人才最踏实。
+
+ 
+
+  
+
+33
+
+、但愿每次回忆，对生活都不感到负疚。
+
+ 
+
+  
+
+34
+
+、计较的太多就成了一种羁绊，迷失的太久便成了一种痛苦。
+
+                              </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-24 19:38:05</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;6</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-23/599cf545919d8.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=82">php</a>
+                            </div>
+                            <div class="article-abstract">
+                                # 主标题
+## 副标题
+
+&gt; 这里是引入被人的名言
+
+```php
+public function test()
+{
+	echo 'hi';
+}
+```                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-23 11:23:49</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;25</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-23/599cef307f911.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=81">小情绪1</a>
+                            </div>
+                            <div class="article-abstract">
+                                ．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我．不要怪别人以貌取人，毕竟心太远，脸就在眼前。 2．说一万句道理，不如自己摔一跤。 3．我会记住生命中不期而遇的温暖，我也会记得大雨磅礴，没有带伞的日子。 4．任何人都可以变得狠毒，只要你尝试过什么叫做嫉妒。 5．我                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-23 10:57:52</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;21</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-21/599a7c456ba29.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=80">爱情</a>
+                            </div>
+                            <div class="article-abstract">
+                                ．大概有些人就是这样，毫无征兆的说爱你，然后又悄无声息地离开。 2．那些扬言陪你走完一生的人，总是迷路。 3．有的人该忘就忘了吧，所谓的念念不忘，在自己眼里是爱，在对方眼里是烦，在别人眼里是贱。 4．你以为最酸的感…                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-21 14:23:01</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;17</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-18/5996d289e5cec.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=78">笑容给任何人</a>
+                            </div>
+                            <div class="article-abstract">
+                                一切都明明白白，但我们仍匆匆错过，因为你相信命运，因为我怀疑生活。 二、让你哭到撕心裂肺的那个人，是你最爱的人;让你笑到没心没肺的那个人，是最爱你的人。 三、遇到困难时不要抱怨，既然改变不了过去，那么就努力改变未来。 四、有些人看起来整天..                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:42:01</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;6</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-18/5996d25572f8e.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=77">不要去想</a>
+                            </div>
+                            <div class="article-abstract">
+                                你的微笑辇过的每个夏天，深深的车辙印子，成了我心里永不会愈合的伤 二、人有四个模样：一个是在朋友面前疯癫的样子，一个是在恋人面前完美的样子，一个是只身一人时脆弱的样子，还有一个，是在陌生的人群中安安静静的样子。 三、习惯躲在某个无人的角...                             </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:41:09</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;1</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-18/5996d231bfec9.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=76">心情美美哒</a>
+                            </div>
+                            <div class="article-abstract">
+                                潇洒乃我本性，帅是命中注定。 二、别再抱怨你在十四亿人中找不到一个对的人了，考试时你选择题四个选项都找不到一个对的。 三、我可以接受失败，但绝对不能接受未奋斗过的自己。---乔丹 四、总有一个人，一直住在心底，却消失在生活里。 五、我不明媚，...                             </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:40:33</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;46</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div><div class="article shadow">
+                        <div class="article-left">
+                            <img src="/./Public/Uploads/2017-08-18/5996d19317f93.jpg" alt="基于laypage的layui扩展模块（pagesize.js）！" />
+                        </div>
+                        <div class="article-right">
+                            <div class="article-title">
+                                <a href="/index.php/Home/Detail/detail.html?id=73">唯美</a>
+                            </div>
+                            <div class="article-abstract">
+                                你就像一大副拼图中的一小块，失去了就算了。我仍然可以跨过障碍，去拼凑完成生命本来的美丽 二、别因为知道我等你，就把我晾在那儿等，也许我会走的。当你爱上了一个人，就会很有兴趣去了解他，愿意把全身心付在他身上，就算是他让自己很生气了，以至自...                             </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="article-footer">
+                            <span><i class="fa fa-clock-o"></i>&nbsp;&nbsp;2017-08-18 19:37:55</span>
+                            <span class="article-author"><i class="fa fa-user"></i>&nbsp;&nbsp;KAI</span>
+                            <span><i class="fa fa-tag"></i>&nbsp;&nbsp;<a href="#">php1</a></span>
+                            <span class="article-viewinfo" id="{.article_id}"><i class="fa fa-eye"></i>&nbsp;1</span>
+                            <span class="article-viewinfo"><i class="fa fa-commenting"></i>&nbsp;4</span>
+                        </div>
+                    </div>                </div>
+
+                <div class="blog-main-right">
+                    <div class="blog-search">
+                        <form class="layui-form" action="/index.php/Home/Article/article.html" method="get">
+                            <div class="layui-form-item">
+                                <div class="search-keywords  shadow">
+                                    <input type="text" name="keywords" lay-verify="required" placeholder="输入关键词搜索" autocomplete="off" class="layui-input">
+                                </div>
+                                <div class="search-submit  shadow">
+                                    <input type="submit" class="search-btn " lay-submit="formSearch" lay-filter="formSearch" value="搜索"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="article-category shadow">
+                        <div class="article-category-title">分类导航</div>
+                        <a href="/index.php/Home/Article/article.html?id=1">php1</a><a href="/index.php/Home/Article/article.html?id=2">web</a><a href="/index.php/Home/Article/article.html?id=3">net</a><a href="/index.php/Home/Article/article.html?id=9">TPs</a><a href="/index.php/Home/Article/article.html?id=11">mysql</a>                        <div class="clear"></div>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">作者推荐</div>
+                        <ul class="fa-ul blog-module-ul">
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=88">心情语录</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=82">php</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=81">小情绪1</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=80">爱情</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=78">笑容给任何人</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=77">不要去想</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=76">心情美美哒</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=73">唯美</a></li>                        </ul>
+                    </div>
+                    <div class="blog-module shadow">
+                        <div class="blog-module-title">随便看看</div>
+                        <ul class="fa-ul blog-module-ul">
+                            <li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=88">心情语录</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=82">php</a></li><li><i class="fa-li fa fa-hand-o-right"></i><a href="/index.php/Home/Detail/detail.html?id=81">小情绪1</a></li>                        </ul>
+                    </div>
+                    <!--右边悬浮 平板或手机设备显示-->
+                    <div class="category-toggle"><i class="fa fa-chevron-left"></i></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+<!-- 底部 -->
+<footer class="blog-footer">
+    <p><span></span><span>&copy;</span><span>2017</span><a href="http://www.lyblogs.cn">小青年</a><span>Zhang Kai</span></p>
+    <p><a href="http://www.miibeian.gov.cn/" target="_blank">北京市昌平区</a></p>
+</footer>
+<!--侧边导航-->
+<ul class="layui-nav layui-nav-tree layui-nav-side blog-nav-left layui-hide" lay-filter="nav">
+    <li class="layui-nav-item">
+        <a href="home.html"><i class="fa fa-home fa-fw"></i>&nbsp;网站首页</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="article.html"><i class="fa fa-file-text fa-fw"></i>&nbsp;文章专栏</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="resource.html"><i class="fa fa-tags fa-fw"></i>&nbsp;资源分享</a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="timeline.html"><i class="fa fa-road fa-fw"></i>&nbsp;点点滴滴</a>
+    </li>
+    <li class="layui-nav-item layui-this">
+        <a href="about.html"><i class="fa fa-info fa-fw"></i>&nbsp;关于本站</a>
+    </li>
+</ul>
+<!--分享窗体-->
+<div class="blog-share layui-hide">
+    <div class="blog-share-body">
+        <div style="width: 200px;height:100%;">
+            <div class="bdsharebuttonbox">
+                <a class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                <a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                <a class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <a class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--遮罩-->
+<div class="blog-mask animated layui-hide"></div>
+<!-- layui.js -->
+<script src="/Public/Home/plug/layui/layui.js"></script>
+<!-- 全局脚本 -->
+<script src="/Public/Home/js/global.js"></script>
+<!-- 本页脚本 -->
+<script src="/Public/Home/js/about.js"></script>
+<!-- 比较好用的代码着色插件 -->
+<script src="/Public/Home/js/prettify.js"></script>
+<!-- 本页脚本 -->
+<script src="/Public/Home/js/detail.js"></script>
+<!-- 本页脚本 -->
+<script src="/Public/Home/js/home.js"></script>
+<!-- 本页脚本 -->
+<script type="text/javascript">
+    layui.use('jquery', function () {
+        var $ = layui.jquery;
+
+        $(function () {
+            $('.monthToggle').click(function () {
+                $(this).parent('h3').siblings('ul').slideToggle('slow');
+                $(this).siblings('i').toggleClass('fa-caret-down fa-caret-right');
+            });
+            $('.yearToggle').click(function () {
+                $(this).parent('h2').siblings('.timeline-month').slideToggle('slow');
+                $(this).siblings('i').toggleClass('fa-caret-down fa-caret-right');
+            });
+        });
+    });
+</script>
+</body>
+
+</body>
+</html>

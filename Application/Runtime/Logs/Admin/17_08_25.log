@@ -1,0 +1,622 @@
+[ 2017-08-25T08:45:31+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-08-25T08:45:31+08:00 ] 127.0.0.1 /index.php/Admin/Login/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-08-25T08:45:36+08:00 ] 127.0.0.1 /index.php/Admin/Login/checked.html?a=0.6308061664240852
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-08-25T08:45:37+08:00 ] 127.0.0.1 /index.php/Admin/Login/checked.html?a=0.1531793555944556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-08-25T08:45:41+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-25T08:45:43+08:00 ] 127.0.0.1 /index.php/Admin/Login/checked.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-08-25T08:45:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/checked.html?a=0.23158640070359826
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-08-25T08:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/checked.html?a=0.5191571232936902
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-08-25T08:45:53+08:00 ] 127.0.0.1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `my_login` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `my_login` WHERE `login_name` = 'zhang' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'login_id' D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Common\function.php 第 6 行.
+SQL: SHOW COLUMNS FROM `my_log` [ RunTime:0.0028s ]
+SQL: INSERT INTO `my_log` (`log_time`,`log_name`,`log_message`,`log_ip`) VALUES ('1503621953','3','管理员登录','127.0.0.1') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-08-25T08:45:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-08-25T08:45:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/counts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) GROUP BY ip  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) GROUP BY ip  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) GROUP BY ip  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-08-25T08:58:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-08-25T08:58:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/counts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) GROUP BY ip  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) GROUP BY ip  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) GROUP BY ip  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-08-25T08:58:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-25T08:59:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-08-25T08:59:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/counts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) GROUP BY ip  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) GROUP BY ip  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-08-25T08:59:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-08-25T08:59:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-08-25T08:59:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/counts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) GROUP BY ip  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) GROUP BY ip  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-08-25T09:54:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-08-25T09:54:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-08-25T09:55:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-25T09:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-25T09:57:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-25T09:57:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-25T09:58:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-08-25T09:59:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/counts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) GROUP BY ip  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) GROUP BY ip  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) GROUP BY ip  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) GROUP BY ip  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) GROUP BY ip  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2017-08-25T10:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2017-08-25T10:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `my_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0026s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-08-25T10:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/counts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `my_access` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503590400 ) AND (  `acs_time` <= 1503676799 ) GROUP BY ip  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503504000 ) AND (  `acs_time` <= 1503590399 ) GROUP BY ip  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503417600 ) AND (  `acs_time` <= 1503503999 ) GROUP BY ip  [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503331200 ) AND (  `acs_time` <= 1503417599 ) GROUP BY ip  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503244800 ) AND (  `acs_time` <= 1503331199 ) GROUP BY ip  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503158400 ) AND (  `acs_time` <= 1503244799 ) GROUP BY ip  [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `ip` FROM `my_access` WHERE (  `acs_time` >= 1503072000 ) AND (  `acs_time` <= 1503158399 ) GROUP BY ip  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-08-25T10:03:15+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `my_type` WHERE `is_del` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-08-25T10:03:15+08:00 ] 127.0.0.1 /Admin/Article/show.html?currentIndex=1&pageSize=5&map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+NOTIC: [2] Illegal string offset 'stime' D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: etime D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE `article_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `my_article` WHERE `article_status` = 1 ORDER BY article_id desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-25T10:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Article/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `my_type` WHERE `is_del` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-08-25T10:03:18+08:00 ] 127.0.0.1 /Admin/Article/show.html?currentIndex=1&pageSize=5&map=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of Admin\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 5 行.
+NOTIC: [2] Illegal string offset 'stime' D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 21 行.
+NOTIC: [8] Undefined index: etime D:\new\htdocs\htdocs\hongbo\BuLuoGe\Application\Admin\Controller\ArticleController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `my_article` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `my_article` WHERE `article_status` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `my_article` WHERE `article_status` = 1 ORDER BY article_id desc LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `my_type` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='11' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `my_type` WHERE ( 1=1 AND type_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+
